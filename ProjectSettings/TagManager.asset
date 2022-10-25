@@ -5,11 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Objetivo
+  - enemigo
+  - bala
+  - Torreta
+  - Bulldozer
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemigos
   - Water
   - UI
   - 
