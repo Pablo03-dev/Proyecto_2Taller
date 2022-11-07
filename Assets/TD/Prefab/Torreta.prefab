@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59bb781e6a788804db283e1327073a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radioDeBusqueda: 10
+  radioDeBusqueda: 4
   layerEnemigos:
     serializedVersion: 2
     m_Bits: 72
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a80fee0c4c4e1074ab8cad9e4fbb4d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoEntreEventos: 1
+  tiempoEntreEventos: 3
   evento:
     m_PersistentCalls:
       m_Calls:

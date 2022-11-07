@@ -9,7 +9,7 @@ public class HPSystem : MonoBehaviour
 
 
 	[SerializeField] private bool haveToDrop;
-	[SerializeField] private GameObject objectToDrop;
+	[SerializeField] private GameObject[] objectToDrop;
 	[SerializeField] private int chanceToDrop;
 
 	private void Start()
@@ -56,12 +56,15 @@ public class HPSystem : MonoBehaviour
 	}
 	public void DropItem()
     {
+
         if (haveToDrop)
         {
+			int indice = Random.Range(0, objectToDrop.Length);
+
 			int rnd = Random.Range(0, 100);
             if (rnd <= chanceToDrop)
             {
-				Instantiate(objectToDrop, transform.position, Quaternion.identity);
+				Instantiate(objectToDrop[indice], transform.position, Quaternion.identity);
             }
         }
     }
