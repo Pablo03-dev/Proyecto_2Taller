@@ -42,9 +42,9 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void QuitarVidas()
+    public void QuitarVidas(int restarhp)
     {
-        vidas--;
+        vidas -= restarhp;
         barrahp.value = vidas;
 
         if(vidas < 1)

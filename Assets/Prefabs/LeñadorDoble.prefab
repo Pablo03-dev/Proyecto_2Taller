@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8981998137142513190}
   - component: {fileID: 8981998137142513191}
   - component: {fileID: 8981998137142513184}
+  - component: {fileID: 8737871999979295721}
+  - component: {fileID: 6804688336214652078}
   m_Layer: 0
   m_Name: "Le\xF1adorDoble"
   m_TagString: Untagged
@@ -121,3 +123,40 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &8737871999979295721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981998137142513185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97753a51feae552468857ecc9997bcf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+  - tag: bala
+    destruirAlOther: 1
+    eventos:
+      m_PersistentCalls:
+        m_Calls: []
+  onStay: []
+  onExit: []
+--- !u!114 &6804688336214652078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981998137142513185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3489534bab6ade24abaf09320ca6c168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  maxHealth: 3
+  haveToDrop: 0
+  objectToDrop: []
+  chanceToDrop: 0

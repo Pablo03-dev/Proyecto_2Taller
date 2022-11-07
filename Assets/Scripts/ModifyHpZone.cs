@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ModifyHpZone : MonoBehaviour
 {
+    public int daño;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class ModifyHpZone : MonoBehaviour
     {
         if (collision.CompareTag("Objetivo"))
         {
-            GameManager.manager.QuitarVidas();
+            GameManager.manager.QuitarVidas(daño);
             //Audiomanager.PlaySound("HuidaPanda");
             //CameraShake.instance.StartShake(0.1f, 0.1f);
             //Destroy();
