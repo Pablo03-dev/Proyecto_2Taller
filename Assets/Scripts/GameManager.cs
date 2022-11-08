@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public Slider barrahp;
     private int score;
     public TMP_Text scoreText;
+    public bool Escena = false;
     //public Transform posReseteo;
     //public Rigidbody2D rb;
 
@@ -22,6 +23,14 @@ public class GameManager : MonoBehaviour
         manager = this;
         score = 0;
         UpdatedScore();
+        Application.targetFrameRate = 60;
+        
+        
+    }
+
+    public void Start()
+    {
+
     }
 
     public int vidas;
@@ -65,6 +74,7 @@ public class GameManager : MonoBehaviour
         //Audiomanager.PlaySound("Coin");
         UpdatedScore();
     }
+
 
     //public void ResetearPosicion(Transform _transform)
     //{
