@@ -367,7 +367,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  activarTorreta: 1
+  activarTorreta: 0
 --- !u!114 &5912065575369236770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,7 +506,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.017300844, y: 0.36042824}
+  m_Offset: {x: -0.017300844, y: 0.36042812}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -517,7 +517,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7462592, y: 0.7347247}
+  m_Size: {x: 0.7462592, y: 0.73472446}
   m_EdgeRadius: 0
 --- !u!114 &1054785407
 MonoBehaviour:
