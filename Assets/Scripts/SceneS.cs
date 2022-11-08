@@ -21,4 +21,14 @@ public class SceneS : MonoBehaviour
     {
         SceneManager.LoadScene("EscenaTD");
     }
+
+    public void Reiniciar()
+    {
+        SceneManager.LoadScene("EscenaTD");
+    }
+
+    public void BackMainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
 }
