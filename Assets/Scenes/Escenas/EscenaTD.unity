@@ -159,7 +159,7 @@ Transform:
   - {fileID: 1260787953}
   - {fileID: 57504009}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &57504008
 PrefabInstance:
@@ -608,7 +608,7 @@ RectTransform:
   m_Children:
   - {fileID: 1911769212}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1925,7 +1925,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &427725436
 GameObject:
@@ -1940,7 +1940,7 @@ GameObject:
   - component: {fileID: 427725438}
   - component: {fileID: 427725437}
   m_Layer: 5
-  m_Name: CanvasHp
+  m_Name: CanvasHp/BarraPreparacion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2022,7 +2022,7 @@ RectTransform:
   - {fileID: 557677006}
   - {fileID: 1120597485}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2060,7 +2060,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaculos:
   - {fileID: 8981998137142513185, guid: 897380fac5f6bcb4293428ae04ac6c48, type: 3}
-  - {fileID: 8981998137142513185, guid: f3df38037f652014d827083392ee17c5, type: 3}
   objeto: {fileID: 0}
   timer: 0
   MinTime: 2
@@ -2081,7 +2080,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &452616706 stripped
 GameObject:
@@ -2122,7 +2121,7 @@ MonoBehaviour:
   scoreText: {fileID: 1911769213}
   Escena: 0
   GameOverScreen: {fileID: 954108060}
-  vidas: 20
+  vidas: 30
 --- !u!4 &459357627
 Transform:
   m_ObjectHideFlags: 0
@@ -2137,7 +2136,7 @@ Transform:
   m_Children:
   - {fileID: 1372057240}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &459357628
 MonoBehaviour:
@@ -2312,9 +2311,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 898135866}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 20
+  m_MaxValue: 30
   m_WholeNumbers: 0
-  m_Value: 20
+  m_Value: 30
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7562,7 +7561,7 @@ GameObject:
   - component: {fileID: 885684753}
   - component: {fileID: 885684752}
   m_Layer: 0
-  m_Name: Spawner (4)
+  m_Name: SpawnerBulldozer 3
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7584,7 +7583,7 @@ MonoBehaviour:
   - {fileID: 8981998137142513185, guid: 3e454ff8198c64847a3fe156ff3dc1bf, type: 3}
   objeto: {fileID: 0}
   timer: 0
-  MinTime: 5
+  MinTime: 15
   MxTime: 20
   timeToSpawn: 21
   aux: {fileID: 0}
@@ -7602,7 +7601,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &898135865
 GameObject:
@@ -7818,7 +7817,7 @@ Transform:
   - {fileID: 826698371}
   - {fileID: 312012928}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1086584339
 GameObject:
@@ -7831,7 +7830,7 @@ GameObject:
   - component: {fileID: 1086584341}
   - component: {fileID: 1086584340}
   m_Layer: 0
-  m_Name: Spawner (3)
+  m_Name: SpawnerBulldozer 2
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7854,7 +7853,7 @@ MonoBehaviour:
   - {fileID: 8981998137142513185, guid: 3e454ff8198c64847a3fe156ff3dc1bf, type: 3}
   objeto: {fileID: 0}
   timer: 0
-  MinTime: 5
+  MinTime: 15
   MxTime: 20
   timeToSpawn: 21
   aux: {fileID: 0}
@@ -7872,7 +7871,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120597484
 GameObject:
@@ -8212,7 +8211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5912065575369236765, guid: 3face400a9be0794789898b983dcc49c, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5912065575369236765, guid: 3face400a9be0794789898b983dcc49c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8937,7 +8936,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756925014
 GameObject:
@@ -9004,7 +9003,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1907030917
 GameObject:
@@ -9130,6 +9129,42 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2125609210}
+        m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
+        m_MethodName: BotontoStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1086584340}
+        m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
+        m_MethodName: BotontoStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 885684752}
+        m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
+        m_MethodName: BotontoStart
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9608,7 +9643,7 @@ GameObject:
   - component: {fileID: 2125609211}
   - component: {fileID: 2125609210}
   m_Layer: 0
-  m_Name: Spawner (2)
+  m_Name: SpawnerBulldozer
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9630,7 +9665,7 @@ MonoBehaviour:
   - {fileID: 8981998137142513185, guid: 3e454ff8198c64847a3fe156ff3dc1bf, type: 3}
   objeto: {fileID: 0}
   timer: 0
-  MinTime: 5
+  MinTime: 15
   MxTime: 20
   timeToSpawn: 21
   aux: {fileID: 0}
@@ -9648,7 +9683,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7538417964151183563
 PrefabInstance:
@@ -9663,7 +9698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6973847965830473554, guid: 22351106399122548bd9af9a25f55496, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6973847965830473554, guid: 22351106399122548bd9af9a25f55496, type: 3}
       propertyPath: m_LocalRotation.w

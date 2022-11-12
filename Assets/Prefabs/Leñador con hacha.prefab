@@ -187,7 +187,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 2
+  m_Speed: 0.9
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -290,10 +290,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3489534bab6ade24abaf09320ca6c168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  maxHealth: 5
+  health: 4
+  maxHealth: 4
   haveToDrop: 0
-  objectToDrop: []
+  objectToDrop1: {fileID: 0}
+  objectToDrop2: {fileID: 0}
   chanceToDrop: 0
 --- !u!114 &-3485256781187092215
 MonoBehaviour:

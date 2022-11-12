@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 218044550529773543}
   - component: {fileID: 2855423566400772601}
   - component: {fileID: -1750365701199129590}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bulldozer(Hacer aparte)
   m_TagString: Bulldozer
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ NavMeshAgent:
   m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 0.5
+  m_Speed: 0.3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5656f7778efa8374180670b747f36dd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.3
   target: {fileID: 3078460899357905597, guid: 8f013a7a07f637c4599205a1924a90a9, type: 3}
 --- !u!61 &1122875428918173378
 BoxCollider2D:
@@ -158,7 +158,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8, y: 5.11}
+    oldSize: {x: 1, y: 0.63875}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 304a9eedcb6edeb4ea0801b0692980dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "da\xF1o": 4
+  "da\xF1o": 5
 --- !u!114 &-1750365701199129590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,8 +225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3489534bab6ade24abaf09320ca6c168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
-  maxHealth: 3
+  health: 10
+  maxHealth: 10
   haveToDrop: 0
   objectToDrop: []
   chanceToDrop: 0

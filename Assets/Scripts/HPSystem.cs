@@ -9,7 +9,8 @@ public class HPSystem : MonoBehaviour
 
 
 	[SerializeField] private bool haveToDrop;
-	[SerializeField] private GameObject[] objectToDrop;
+	[SerializeField] private GameObject objectToDrop1;
+	[SerializeField] private GameObject objectToDrop2;
 	[SerializeField] private int chanceToDrop;
 
 	private void Start()
@@ -75,12 +76,16 @@ public class HPSystem : MonoBehaviour
 
         if (haveToDrop)
         {
-			int indice = Random.Range(0, objectToDrop.Length);
+			//int indice = Random.Range(0, objectToDrop1.Length);
 
 			int rnd = Random.Range(0, 100);
             if (rnd <= chanceToDrop)
             {
-				Instantiate(objectToDrop[indice], transform.position, Quaternion.identity);
+				Instantiate(objectToDrop1, transform.position, Quaternion.identity);
+            }
+            if (rnd <= chanceToDrop)
+            {
+				Instantiate(objectToDrop2, transform.position, Quaternion.identity);
             }
         }
     }

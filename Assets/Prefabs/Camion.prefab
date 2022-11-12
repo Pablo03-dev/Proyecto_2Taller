@@ -113,7 +113,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 1
+  m_Speed: 0.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -137,12 +137,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3489534bab6ade24abaf09320ca6c168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
-  maxHealth: 3
+  health: 7
+  maxHealth: 7
   haveToDrop: 1
-  objectToDrop:
-  - {fileID: 8981998137142513185, guid: f3df38037f652014d827083392ee17c5, type: 3}
-  - {fileID: 8981998137142513185, guid: f3df38037f652014d827083392ee17c5, type: 3}
+  objectToDrop1: {fileID: 8981998137142513185, guid: f3df38037f652014d827083392ee17c5, type: 3}
+  objectToDrop2: {fileID: 8981998137142513185, guid: f3df38037f652014d827083392ee17c5, type: 3}
   chanceToDrop: 100
 --- !u!61 &-1238354761145983021
 BoxCollider2D:
@@ -203,4 +202,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 304a9eedcb6edeb4ea0801b0692980dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "da\xF1o": 4
+  "da\xF1o": 5

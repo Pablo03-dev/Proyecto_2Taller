@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyWhenActivated: 0
-  healthChange: -3
+  healthChange: -2
 --- !u!1 &9021872183662684883
 GameObject:
   m_ObjectHideFlags: 0
