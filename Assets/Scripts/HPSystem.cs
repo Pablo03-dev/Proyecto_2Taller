@@ -17,7 +17,23 @@ public class HPSystem : MonoBehaviour
 		maxHealth = health;
 	}
 
-	public void PlusHealth(int amount)
+   // private void OnCollisionEnter2D(Collision2D collision)
+   // {
+   //     if (collision.gameObject.CompareTag("Objetivo"))
+   //     {
+			//Destroy(this.gameObject);
+   //     }
+   // }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+		if (collision.gameObject.CompareTag("Objetivo"))
+		{
+			Destroy(this.gameObject);
+		}
+	}
+
+    public void PlusHealth(int amount)
 	{
 		if (health + amount > maxHealth)
 		{
