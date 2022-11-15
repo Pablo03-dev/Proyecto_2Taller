@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: -1750365701199129590}
   m_Layer: 3
   m_Name: Bulldozer(Hacer aparte)
-  m_TagString: Bulldozer
+  m_TagString: enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,5 +228,6 @@ MonoBehaviour:
   health: 10
   maxHealth: 10
   haveToDrop: 0
-  objectToDrop: []
+  objectToDrop1: {fileID: 0}
+  objectToDrop2: {fileID: 0}
   chanceToDrop: 0
