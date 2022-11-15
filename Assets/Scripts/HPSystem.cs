@@ -13,6 +13,7 @@ public class HPSystem : MonoBehaviour
 	[SerializeField] private GameObject objectToDrop2;
 	[SerializeField] private int chanceToDrop;
 
+	[SerializeField] private int puntosAlMorir;
 	private void Start()
 	{
 		maxHealth = health;
@@ -67,7 +68,7 @@ public class HPSystem : MonoBehaviour
 			DropItem();
 
 
-
+			GameManager.manager.AddScore(puntosAlMorir);
 			Destroy(gameObject);
 		}
 	}

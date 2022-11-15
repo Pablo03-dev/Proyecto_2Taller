@@ -231,3 +231,4 @@ MonoBehaviour:
   objectToDrop1: {fileID: 0}
   objectToDrop2: {fileID: 0}
   chanceToDrop: 0
+  puntosAlMorir: 10

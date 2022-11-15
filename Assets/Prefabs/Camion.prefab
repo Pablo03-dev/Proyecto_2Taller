@@ -143,6 +143,7 @@ MonoBehaviour:
   objectToDrop1: {fileID: 8981998137142513185, guid: f3df38037f652014d827083392ee17c5, type: 3}
   objectToDrop2: {fileID: 8981998137142513185, guid: f3df38037f652014d827083392ee17c5, type: 3}
   chanceToDrop: 100
+  puntosAlMorir: 5
 --- !u!61 &-1238354761145983021
 BoxCollider2D:
   m_ObjectHideFlags: 0
