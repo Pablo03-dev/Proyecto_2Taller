@@ -29,6 +29,7 @@ public class SceneS : MonoBehaviour
     public void CargarLevel1()
     {
         SceneManager.LoadScene("nivel1");
+        Time.timeScale = 1;
     }
 
     public void Cargarlevel2()
@@ -43,6 +44,8 @@ public class SceneS : MonoBehaviour
 
     public void BackMainMenu()
     {
+        
         SceneManager.LoadScene("Main Menu");
+        Time.timeScale = 1;
     }
 }
